@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>InputElement | XAML Behaviors for Avalonia </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="InputElement | XAML Behaviors for Avalonia ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/nbeck-SMT/Xaml.Behaviors/blob/master/docfx/articles/interactions-custom/input-element/overview.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="inputelement">InputElement</h1>
+
+<p>The <code>InputElement</code> category contains the following interactions:</p>
+<ul>
+<li><a href="capture-pointer-action.html">CapturePointerAction</a></li>
+<li><a href="click-event-trigger.html">ClickEventTrigger</a></li>
+<li><a href="double-tapped-trigger.html">DoubleTappedTrigger</a></li>
+<li><a href="got-focus-trigger.html">GotFocusTrigger</a></li>
+<li><a href="holding-trigger.html">HoldingTrigger</a></li>
+<li><a href="key-down-trigger.html">KeyDownTrigger</a></li>
+<li><a href="key-gesture-trigger.html">KeyGestureTrigger</a></li>
+<li><a href="key-trigger.html">KeyTrigger</a></li>
+<li><a href="key-up-trigger.html">KeyUpTrigger</a></li>
+<li><a href="lost-focus-trigger.html">LostFocusTrigger</a></li>
+<li><a href="pointer-capture-lost-trigger.html">PointerCaptureLostTrigger</a></li>
+<li><a href="pointer-entered-trigger.html">PointerEnteredTrigger</a></li>
+<li><a href="pointer-exited-trigger.html">PointerExitedTrigger</a></li>
+<li><a href="pointer-moved-trigger.html">PointerMovedTrigger</a></li>
+<li><a href="pointer-pressed-trigger.html">PointerPressedTrigger</a></li>
+<li><a href="pointer-released-trigger.html">PointerReleasedTrigger</a></li>
+<li><a href="pointer-wheel-changed-trigger.html">PointerWheelChangedTrigger</a></li>
+<li><a href="release-pointer-capture-action.html">ReleasePointerCaptureAction</a></li>
+<li><a href="tapped-trigger.html">TappedTrigger</a></li>
+<li><a href="text-input-method-client-requested-trigger.html">TextInputMethodClientRequestedTrigger</a></li>
+<li><a href="text-input-trigger.html">TextInputTrigger</a></li>
+</ul>
+<p>The <code>ClickEventTrigger</code> article includes end-to-end examples for click emulation, <code>SourceControl</code>, <code>HandleEvent</code>/<code>HandledEventsToo</code> event-routing strategies, and picker actions wired to MVVM commands.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/nbeck-SMT/Xaml.Behaviors/blob/master/docfx/articles/interactions-custom/input-element/overview.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
